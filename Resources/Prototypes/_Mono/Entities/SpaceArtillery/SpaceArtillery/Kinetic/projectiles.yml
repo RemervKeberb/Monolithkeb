@@ -76,7 +76,7 @@
 # 35mm - Draupnir
 
 - type: entity
-  id: 35mmBullet
+  id: 35mmBulletAP
   parent: BaseBullet
   categories: [ HideSpawnMenu ]
   components:

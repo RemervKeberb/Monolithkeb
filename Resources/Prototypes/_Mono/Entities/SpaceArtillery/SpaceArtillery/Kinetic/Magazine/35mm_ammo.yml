@@ -44,7 +44,7 @@
     - 35mmCartridge
   - type: CartridgeAmmo
     deleteOnSpawn: true
-    proto: 35mmBullet
+    proto: 35mmBulletAP
   - type: Sprite
     sprite: _Mono/Objects/Weapons/Guns/Ammunition/Explosives/generic_cartridges.rsi
     layers:
