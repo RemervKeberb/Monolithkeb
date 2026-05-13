@@ -86,7 +86,7 @@
         Piercing: 270
   - type: ShipWeaponProjectile
   - type: TimedDespawn
-    lifetime: 1.5
+    lifetime: 2
   - type: PointLight
     radius: 3.5
     energy: 0.5
