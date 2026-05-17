@@ -5,7 +5,7 @@
   parent: BaseVessel
   name: CI Crow Fighter Bomber
   description: The workhorse of the Corvus Industries fleet. Armed with two AC-35s and a GPOB-L, it excels at daring hit and runs straight through enemy formations.
-  price: 33500 #Rounded up to 27K, with a 20% tax
+  price: 37200 #Rounded up to 31K, with a 20% tax
   category: Small
   group: Shipyard
   access: Mercenary
