@@ -4,8 +4,8 @@ meta:
   engineVersion: 271.2.0
   forkId: ""
   forkVersion: ""
-  time: 05/13/2026 16:43:56
-  entityCount: 266
+  time: 05/17/2026 14:56:14
+  entityCount: 272
 maps: []
 grids:
 - 1
@@ -38,7 +38,7 @@ entities:
     - type: MetaData
       name: Crow
     - type: Transform
-      pos: 127.972496,57.050694
+      pos: 156.9725,86.05069
       parent: invalid
     - type: MapGrid
       chunks:
@@ -69,10 +69,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Smoke: []
-        MetalFoam: []
-        Puddle: []
         Kudzu: []
+        Smoke: []
+        Puddle: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -234,6 +234,9 @@ entities:
           1,2:
             0: 258
             1: 8192
+          1,-1:
+            0: 7569
+            1: 74
           1,3:
             1: 1
           2,0:
@@ -243,9 +246,6 @@ entities:
             1: 8
           0,-1:
             0: 1840
-            1: 74
-          1,-1:
-            0: 3473
             1: 74
           2,-1:
             0: 272
@@ -330,7 +330,7 @@ entities:
       pos: 4.5,-1.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -6401.217
+      secondsUntilStateChange: -6517.552
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -605,6 +605,26 @@ entities:
     - type: Transform
       pos: 2.5,2.5
       parent: 1
+  - uid: 192
+    components:
+    - type: Transform
+      pos: 4.5,2.5
+      parent: 1
+  - uid: 267
+    components:
+    - type: Transform
+      pos: 4.5,3.5
+      parent: 1
+  - uid: 268
+    components:
+    - type: Transform
+      pos: 4.5,4.5
+      parent: 1
+  - uid: 269
+    components:
+    - type: Transform
+      pos: 4.5,5.5
+      parent: 1
 - proto: CableMV
   entities:
   - uid: 55
@@ -646,6 +666,21 @@ entities:
     components:
     - type: Transform
       pos: 5.5,-0.5
+      parent: 1
+  - uid: 270
+    components:
+    - type: Transform
+      pos: 4.5,5.5
+      parent: 1
+  - uid: 271
+    components:
+    - type: Transform
+      pos: 4.5,4.5
+      parent: 1
+  - uid: 272
+    components:
+    - type: Transform
+      pos: 4.5,3.5
       parent: 1
 - proto: Catwalk
   entities:
@@ -1526,11 +1561,10 @@ entities:
           - Toggle
 - proto: SubstationWallBasic
   entities:
-  - uid: 192
+  - uid: 258
     components:
     - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: 2.5,2.5
+      pos: 4.5,5.5
       parent: 1
 - proto: TableFolding
   entities:
@@ -1938,12 +1972,6 @@ entities:
     components:
     - type: Transform
       pos: 4.5,5.5
-      parent: 1
-  - uid: 258
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 4.5,6.5
       parent: 1
   - uid: 259
     components:
