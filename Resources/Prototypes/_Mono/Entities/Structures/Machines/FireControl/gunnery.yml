@@ -142,7 +142,7 @@
   - type: Machine
     board: MachineGCSUltraCircuitboard
   - type: FireControlServer
-    processingPower: 500
+    processingPower: 300
   - type: Battery
     maxCharge: 2000
     startingCharge: 2000
