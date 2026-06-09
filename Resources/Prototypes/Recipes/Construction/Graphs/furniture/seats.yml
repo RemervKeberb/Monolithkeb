@@ -258,7 +258,7 @@
         - to: start
           completed:
             - !type:SpawnPrototype
-              prototype: PartRodMetal2
+              prototype: PartRodMetal1
           steps:
             - tool: Screwing
               doAfter: 1
