@@ -21682,3 +21682,30 @@ Entries:
   id: 2391
   time: '2026-06-21T17:46:23.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/4060
+- author: Svarshik
+  changes:
+    - type: Add
+      message: >-
+        Scrap box for collecting scrap from vgroids/blue asteroids, some scrap
+        were resized to fit in
+    - type: Tweak
+      message: Pickaxe wideswing does not cost stamina
+    - type: Tweak
+      message: Holoflare pistol recharges 50% faster
+    - type: Tweak
+      message: Crusher firerate buffed 1.0 -> 1.4
+    - type: Add
+      message: Clarke now has internal ore storage and magnet
+    - type: Tweak
+      message: >-
+        Exosuit kinetic gun fires a bit faster and full auto instead of semi 1.0
+        -> 1.5
+    - type: Tweak
+      message: Standart exosuit drill now can gather hard ore tiles
+    - type: Tweak
+      message: Floodlight consumes 70% less energy
+    - type: Tweak
+      message: Exosuit drills were buffed - more damage, faster attack speed.
+  id: 2392
+  time: '2026-06-21T17:53:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/3757
