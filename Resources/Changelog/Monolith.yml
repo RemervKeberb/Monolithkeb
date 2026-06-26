@@ -21753,3 +21753,10 @@ Entries:
   id: 2398
   time: '2026-06-26T12:49:15.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/4141
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: TSF and PDV are no longer capable of using civilian shipyard consoles.
+  id: 2399
+  time: '2026-06-26T12:56:45.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4144
