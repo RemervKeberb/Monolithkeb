@@ -21767,3 +21767,12 @@ Entries:
   id: 2400
   time: '2026-06-27T06:31:52.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/3885
+- author: NazrinNya
+  changes:
+    - type: Tweak
+      message: Faction T1/T2 printable LPCs are no longer random
+    - type: Tweak
+      message: T1 LPCs are now significantly cheaper.
+  id: 2401
+  time: '2026-06-27T12:22:26.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4150
