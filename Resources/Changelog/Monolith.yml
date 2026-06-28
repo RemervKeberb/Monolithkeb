@@ -21785,3 +21785,10 @@ Entries:
   id: 2402
   time: '2026-06-27T13:04:51.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/4151
+- author: GOLDMASK990
+  changes:
+    - type: Add
+      message: Freeport Comms, added to USSP/VG headsets by default
+  id: 2403
+  time: '2026-06-28T06:59:12.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/4140
